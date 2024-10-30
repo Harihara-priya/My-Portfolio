@@ -6,11 +6,6 @@
     }
     ],
     "routes": [
-        {
-            "rewrites": [
-              { "source": "/static/(.*)", "destination": "/staticfiles/$1" }
-            ]
-          },
         
         {
             "src": "/(.*)",
